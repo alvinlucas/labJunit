@@ -24,5 +24,6 @@ public class TestCompteBancaire {
         assertEquals(150, compte.getSolde());
         assertEquals(0, compte.crediterSolde(-50));
         assertEquals(0, compte.crediterSolde(0));
+
     }
 }
