@@ -11,6 +11,7 @@ public class TestCompteBancaire {
         assertEquals(0, compte.debiterSolde(200));
         assertEquals(50, compte.debiterSolde(-50));
         assertEquals(0, compte.debiterSolde(0));
+
     }
 
     private void assertEquals(int i, double v) {
