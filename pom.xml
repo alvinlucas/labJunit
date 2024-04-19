@@ -13,7 +13,7 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
 			<version>5.10.2</version>
-			<scope>test</scope> <!-- Cette dépendance est utilisée pour les tests unitaires -->
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -36,8 +36,6 @@
 					</execution>
 				</executions>
 			</plugin>
-
-			<!-- Plugin Maven Jar pour créer une JAR exécutable -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -46,7 +44,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>labJunit.app.Main</mainClass> <!-- Remplacez par votre classe principale -->
+							<mainClass>labJunit.app.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
